@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  color: green;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Muli;
+  font-weight: bold;
+  color: orange;
+}
+
+#projects {
+  border: 1px solid black;
+  text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  width: 60%;
+  margin: auto;
+}
+
+.project {
+  vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 15%;
+    padding-top: 15%;
+
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#project1 {
+  background-color: red;
+}
+
+#project2 {
+  background-color: green;
+}
+
+#project3 {
+  background-color: blue;
+}
+
+#project4 {
+  background-color: cyan;
+}
+
+#project5 {
+  background-color: orange;
+}
+
+#project6 {
+  background-color: purple;
+}
+
+#project7 {
+  background-color: black;
+}
+
+#project8 {
+  background-color: white;
+}
+
+#project9 {
+  background-color: red;
+}
+
+#project10 {
+  background-color: grey;
+}
+
+#project11 {
+  background-color: yellow;
+}
+
+#project12 {
+  background-color: turquoise;
+}
