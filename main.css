@@ -1,26 +1,30 @@
 body {
   text-align: center;
   background-color: rgb(220, 220, 220);
-  border: 1px solid black;
 }
 
 p {
   font-family: Roboto, sans-serif;
+  font-size: 1.3em;
   color: rgb(30, 30, 30);
+}
+
+#projects-header {
+  border-top: 1px solid black;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Muli;
   font-weight: bold;
+  font-size: 2em;
   color: blue;
 }
 
 #projects {
-  border: 1px solid black;
   text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 
@@ -29,9 +33,26 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     *display: inline;
     zoom: 1;
-    width: 15%;
-    padding-top: 15%;
+    width: 20%;
+}
 
+.project-thumbnail {
+  vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  width: 100%;
+  padding-top: 75%;
+  margin-bottom: 10%;
+}
+
+.project-description {
+  width: 100%;
+  padding-bottom: 30%;
+}
+
+.project-description>p {
+  font-size: 1.1em;
 }
 
 .stretch {
@@ -41,50 +62,52 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 0
 }
 
-#project1 {
+
+
+#project1>a.project-thumbnail {
   background-color: red;
 }
 
-#project2 {
+#project2>a.project-thumbnail {
   background-color: green;
 }
 
-#project3 {
+#project3>a.project-thumbnail {
   background-color: blue;
 }
 
-#project4 {
+#project4>a.project-thumbnail {
   background-color: cyan;
 }
 
-#project5 {
+#project5>a.project-thumbnail {
   background-color: orange;
 }
 
-#project6 {
+#project6>a.project-thumbnail {
   background-color: purple;
 }
 
-#project7 {
+#project7>a.project-thumbnail {
   background-color: black;
 }
 
-#project8 {
+#project8>a.project-thumbnail {
   background-color: white;
 }
 
-#project9 {
+#project9>a.project-thumbnail {
   background-color: red;
 }
 
-#project10 {
+#project10>a.project-thumbnail {
   background-color: grey;
 }
 
-#project11 {
+#project11>a.project-thumbnail {
   background-color: yellow;
 }
 
-#project12 {
+#project12>a.project-thumbnail {
   background-color: turquoise;
 }
