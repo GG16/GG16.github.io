@@ -1,18 +1,18 @@
 body {
   text-align: center;
-  background-color: pink;
+  background-color: rgb(220, 220, 220);
   border: 1px solid black;
 }
 
 p {
   font-family: Roboto, sans-serif;
-  color: green;
+  color: rgb(30, 30, 30);
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Muli;
   font-weight: bold;
-  color: orange;
+  color: blue;
 }
 
 #projects {
